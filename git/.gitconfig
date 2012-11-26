@@ -1,0 +1,28 @@
+[hub]
+  protocol = https
+[user]
+  name = Nate Irwin
+  email = nate@nateirwin.net
+[credential]
+  helper = osxkeychain
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+[core]
+  excludesfile = ~/.gitignore
+  edit = Sublime Text 2
+[apply]
+  whitespace = nowarn
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[difftool "Kaleidoscope"]
+  cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+  prompt = false
+[diff]
+  tool = Kaleidoscope
+[push]
+  default = current
