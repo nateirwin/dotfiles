@@ -2,7 +2,7 @@
   protocol = https
 [user]
   name = Nate Irwin
-  email = nate@nateirwin.net
+  email = nate@irwin.xyz
 [credential]
   helper = osxkeychain
 [color]
@@ -12,7 +12,7 @@
   ui = true
 [core]
   excludesfile = ~/.gitignore
-  edit = Sublime Text 2
+  edit = Atom
 [apply]
   whitespace = nowarn
 [mergetool "sourcetree"]
