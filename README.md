@@ -40,6 +40,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 ### Download
 
 - [Atom](#atom)
+- Dropbox
 - Google Chrome
 - [Hyperterm](#hyperterm)
 - Kaleidoscope
