@@ -14,31 +14,47 @@ A collection of my dotfiles and information/config files to get a new machine up
 ### Mac App Store
 
 - 1Password
+- Adobe Creative Cloud
 - Alfred 3
+- Android Studio
+- Basecamp 3
 - Caffeine
 - ColorSnapper 2
+- Day One
+- Docker
 - Magnet
+- MindNode
+- Paprika
+- Paw
+- Power JSON Editor
+- Prepo
 - ProCSSor
 - Reeder 3
-- Screens VNC
+- Screens
 - Skitch
 - Slack
 - Things
 - Tweetbot
 - Ulysses
+- Wren
 - Wunderlist
 - XCode
 
 ### Download
 
 - [Atom](#atom)
+- Docker
 - Google Chrome
 - [Hyperterm](#hyperterm)
+- Junos Pulse
 - Kaleidoscope
-- Omnigraffle
+- Omnigraffle Professional
+- PhoneGap
 - QGIS
+- Screenhero
 - Sketch 3
 - Spotify
+- VMware Fusion
 
 ### Configure
 
