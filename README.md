@@ -2,26 +2,24 @@
 
 A collection of my dotfiles and information/config files to get a new machine up and running.
 
-## macOS
+## OS X
 
-1. Update macOS to latest version
+1. Update OS X to latest version
 1. Install any security updates, etc.
 1. Run `sh osx/set-defaults.sh`
 1. Copy contents of `osx/.bash_profile` over
+1. Install applications from list below
 
 ## Applications
 
 ### Mac App Store
 
 - 1Password
-- Adobe Creative Cloud
 - Alfred 3
 - Android Studio
-- Basecamp 3
 - Caffeine
 - ColorSnapper 2
 - Day One
-- Docker
 - Magnet
 - MindNode
 - Paprika
@@ -36,17 +34,14 @@ A collection of my dotfiles and information/config files to get a new machine up
 - Things
 - Tweetbot
 - Ulysses
-- Wren
 - Wunderlist
 - XCode
 
 ### Download
 
 - [Atom](#atom)
-- Docker
 - Google Chrome
 - [Hyperterm](#hyperterm)
-- Junos Pulse
 - Kaleidoscope
 - Omnigraffle Professional
 - PhoneGap
@@ -54,7 +49,6 @@ A collection of my dotfiles and information/config files to get a new machine up
 - Screenhero
 - Sketch 3
 - Spotify
-- VMware Fusion
 
 ### Configure
 
@@ -67,7 +61,7 @@ A collection of my dotfiles and information/config files to get a new machine up
   - `npm install grunt-cli -g`
   - `npm install gulp-cli -g`
   - `npm install http-server -g`
-- Install RVM (`curl -L https://get.rvm.io | bash -s stable --ruby`), then: `gem install jekyll`
+- Install rbenv (`brew install rbenv`), then: `gem install jekyll`
 
 #### Atom
 
