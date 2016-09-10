@@ -15,13 +15,17 @@ A collection of my dotfiles and information/config files to get a new machine up
 ### Mac App Store
 
 - 1Password
-- Alfred 3
+- [Alfred 3](#alfred)
 - Android Studio
 - Caffeine
 - ColorSnapper 2
+- Cyberduck
 - Day One
+- Keynote
 - Magnet
 - MindNode
+- Numbers
+- Pages
 - Paprika
 - Paw
 - Power JSON Editor
@@ -29,11 +33,13 @@ A collection of my dotfiles and information/config files to get a new machine up
 - ProCSSor
 - Reeder 3
 - Screens
+- SimpleScrobbler
 - Skitch
 - Slack
+- The Unarchiver
 - Things
 - Tweetbot
-- Ulysses
+- [Ulysses](#ulysses)
 - Wunderlist
 - XCode
 
@@ -53,6 +59,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 
 ### Configure
 
+- Install oh-my-zsh: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install Git (`brew install git`), then:
   - `git config --global user.name "Nate Irwin"`
@@ -62,7 +69,11 @@ A collection of my dotfiles and information/config files to get a new machine up
   - `npm install grunt-cli -g`
   - `npm install gulp-cli -g`
   - `npm install http-server -g`
-- Install rbenv (`brew install rbenv`), then: `gem install jekyll`
+- Install rbenv (`brew install rbenv`), then: `sudo gem install jekyll`
+
+#### Alfred
+
+Import workflows from `dotfiles/apps/Alfred/`.
 
 #### Atom
 
@@ -87,3 +98,5 @@ Settings stored in: https://gist.github.com/nateirwin/6dcfdaea92b72539e279c69736
     }`
 1. Restart Hyperterm
 1. Select "Plugins > Sync Settings > Restore Settings"
+
+#### Ulysses
