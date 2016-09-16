@@ -7,8 +7,8 @@ A collection of my dotfiles and information/config files to get a new machine up
 1. Update OS X to latest version
 1. Install any security updates, etc.
 1. Run `sh osx/set-defaults.sh`
-1. Copy contents of `osx/.bash_profile` over
-1. Install applications from list below
+1. Copy contents of `osx/.bash_profile` over into `~/.bash_profile`
+1. Install applications from ["Mac App Store"](#mac-app-store) and ["Download"](#download) lists below
 
 ## Applications
 
@@ -22,6 +22,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 - Cyberduck
 - Day One
 - Keynote
+- Kindle
 - Magnet
 - MindNode
 - Numbers
@@ -45,13 +46,13 @@ A collection of my dotfiles and information/config files to get a new machine up
 
 ### Download
 
-- [Atom](#atom)
+- Atom [configuration](#atom)
 - Dropbox
 - Google Chrome
-- [Hyperterm](#hyperterm)
+- [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-command-line)
+- [Hyperterm](https://hyperterm.org) [configuration](#hyperterm)
 - Kaleidoscope
 - Omnigraffle Professional
-- PhoneGap
 - QGIS
 - Screenhero
 - Sketch 3
@@ -69,7 +70,13 @@ A collection of my dotfiles and information/config files to get a new machine up
   - `npm install grunt-cli -g`
   - `npm install gulp-cli -g`
   - `npm install http-server -g`
-- Install rbenv (`brew install rbenv`), then: `sudo gem install jekyll`
+- Install rbenv (`brew install rbenv`), then:
+  - Paste `eval "$(rbenv init -)"` into ~/.bash_profile
+  - Restart Hyperterm
+  - `rbenv install 2.2.2`
+  - `rbenv global 2.2.2`
+  - `gem install cocoapods`
+  - `gem install jekyll`
 
 #### Alfred
 
@@ -89,7 +96,7 @@ Settings stored in: https://gist.github.com/nateirwin/9f3a5e131294da5abf32ec5066
 
 Settings stored in: https://gist.github.com/nateirwin/6dcfdaea92b72539e279c69736ac2ccc.
 
-1. Open `~/.hyperterm.js`
+1. `atom ~/.hyperterm.js`
 1. Add `hyperterm-sync-settings` to the plugins array
 1. Save the following in `~/.hyperterm_plugins/.hyperterm-sync-settings.json`:
     `{
@@ -98,5 +105,8 @@ Settings stored in: https://gist.github.com/nateirwin/6dcfdaea92b72539e279c69736
     }`
 1. Restart Hyperterm
 1. Select "Plugins > Sync Settings > Restore Settings"
+1. `git clone https://github.com/tylerreckart/hyperzsh`
+1. `cd hyperzsh && cp -R hyperzsh.zsh-theme ~/.oh-my-zsh/themes/hyperzsh.zsh-theme`
+1. `atom ~/.zshrc` and set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyperzsh"`
 
 #### Ulysses
