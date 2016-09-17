@@ -278,7 +278,7 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 for app in "Address Book" "Calendar" "Contacts" "Dashboard" "Dock" "Finder" \
   "Safari" "SystemUIServer" "Terminal" \
-  "iCal" "iTunes"; do
+  "iTunes"; do
   killall "$app" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
