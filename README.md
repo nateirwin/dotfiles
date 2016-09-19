@@ -22,6 +22,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 - Kindle
 - Magnet
 - MindNode
+- NepTunes
 - Numbers
 - Pages
 - Paprika
