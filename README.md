@@ -15,11 +15,8 @@ A collection of my dotfiles and information/config files to get a new machine up
 ### Mac App Store
 
 - 1Password
-- [Alfred 3](#alfred)
 - Android Studio
-- Caffeine
 - ColorSnapper 2
-- Cyberduck
 - Day One
 - Keynote
 - Kindle
@@ -37,7 +34,6 @@ A collection of my dotfiles and information/config files to get a new machine up
 - SimpleScrobbler
 - Skitch
 - Slack
-- The Unarchiver
 - Things
 - Tweetbot
 - [Ulysses](#ulysses)
@@ -46,6 +42,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 
 ### Download
 
+- [Alfred 3](#alfred)
 - Atom [configuration](#atom)
 - Dropbox
 - Google Chrome
@@ -105,8 +102,3 @@ Settings stored in: https://gist.github.com/nateirwin/6dcfdaea92b72539e279c69736
     }`
 1. Restart Hyperterm
 1. Select "Plugins > Sync Settings > Restore Settings"
-1. `git clone https://github.com/tylerreckart/hyperzsh`
-1. `cd hyperzsh && cp -R hyperzsh.zsh-theme ~/.oh-my-zsh/themes/hyperzsh.zsh-theme`
-1. `atom ~/.zshrc` and set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyperzsh"`
-
-#### Ulysses

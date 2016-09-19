@@ -13,10 +13,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing) (this is only really useful when setting up a new Mac).
-# sudo scutil --set ComputerName "Libra"
-# sudo scutil --set HostName "Libra"
-# sudo scutil --set LocalHostName "Libra"
-# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Libra"
+sudo scutil --set ComputerName "Virgo"
+sudo scutil --set HostName "Virgo"
+sudo scutil --set LocalHostName "Virgo"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Virgo"
 
 # Disable transparency for menu bar.
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
@@ -88,7 +88,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 defaults write NSGlobalDomain KeyRepeat -int 0
 
 # Set the timezone; see `systemsetup -listtimezones` for other values (this is only really useful when setting up a new Mac).
-# systemsetup -settimezone "America/Denver" > /dev/null
+systemsetup -settimezone "America/Denver" > /dev/null
 
 # Disable auto-correct.
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -191,7 +191,7 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 ###############################################################################
 
 # Wipe all (default) app icons from the Dock (this is only really useful when setting up a new Mac, or if you don’t use the Dock to launch apps).
-# defaults write com.apple.dock persistent-apps -array
+defaults write com.apple.dock persistent-apps -array
 
 # Only show active apps.
 defaults write com.apple.dock static-only -bool true
