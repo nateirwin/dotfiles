@@ -7,7 +7,6 @@ A collection of my dotfiles and information/config files to get a new machine up
 1. Update OS X to latest version
 1. Install any security updates, etc.
 1. Run `sh osx/set-defaults.sh`
-1. Copy contents of `osx/.bash_profile` over into `~/.bash_profile`
 1. Install applications from ["Mac App Store"](#mac-app-store) and ["Download"](#download) lists below
 
 ## Applications
@@ -58,7 +57,6 @@ A collection of my dotfiles and information/config files to get a new machine up
 
 ### Configure
 
-- Install oh-my-zsh: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Install Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install Git (`brew install git`), then:
   - `git config --global user.name "Nate Irwin"`
@@ -78,7 +76,11 @@ A collection of my dotfiles and information/config files to get a new machine up
 
 #### Alfred
 
-Import workflows from `dotfiles/apps/Alfred/`.
+Setup sync:
+
+1. Open Alfred preferences
+1. Click the "Advanced" tab
+1. Click "Set sync folder..." and navigate to, and select, "iCloud > Alfred"
 
 #### Atom
 
