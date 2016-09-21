@@ -85,7 +85,7 @@ defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate.
-defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g InitialKeyRepeat -int 8 # normal minimum is 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 
 # Set the timezone; see `systemsetup -listtimezones` for other values (this is only really useful when setting up a new Mac).
@@ -192,7 +192,8 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 ###############################################################################
 
 # Wipe all (default) app icons from the Dock (this is only really useful when setting up a new Mac, or if you don’t use the Dock to launch apps).
-defaults write com.apple.dock persistent-apps -array
+# TODO: This one doesn't seem to be working properly.
+# defaults write com.apple.dock persistent-apps -array
 
 # Only show active apps.
 defaults write com.apple.dock static-only -bool true
