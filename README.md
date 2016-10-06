@@ -50,6 +50,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 - [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-command-line)
 - [Hyperterm](https://hyperterm.org) [configuration](#hyperterm)
 - Kaleidoscope
+- [Kap](https://getkap.co)
 - Omnigraffle Professional
 - QGIS
 - Screenhero
