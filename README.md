@@ -46,6 +46,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 - [Alfred 3](#alfred)
 - Atom [configuration](#atom)
 - Dropbox
+- Figma
 - Google Chrome
 - [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-command-line)
 - [Hyperterm](https://hyperterm.org) [configuration](#hyperterm)
