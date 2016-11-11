@@ -27,6 +27,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 - Pages
 - Paprika
 - Paw
+- Pixelmator
 - Power JSON Editor
 - Prepo
 - ProCSSor
