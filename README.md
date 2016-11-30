@@ -1,4 +1,4 @@
-# dotfiles
+  # dotfiles
 
 A collection of my dotfiles and information/config files to get a new machine up and running.
 
@@ -16,6 +16,7 @@ A collection of my dotfiles and information/config files to get a new machine up
 - 1Password
 - Amphetamine
 - Android Studio
+- Asset Resizer
 - ColorSnapper 2
 - Day One
 - Keynote
