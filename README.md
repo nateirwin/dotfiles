@@ -5,9 +5,9 @@ A collection of my dotfiles and information/config files to get a new machine up
 ## OS X
 
 1. Update OS X to latest version
-1. Install any security updates, etc.
-1. Run `sh osx/set-defaults.sh`
-1. Install applications from ["Mac App Store"](#mac-app-store) and ["Download"](#download) lists below
+2. Install any security updates, etc.
+3. Install applications from ["Mac App Store"](#mac-app-store) and ["Download"](#download) lists below
+4. Run `sh osx/set-defaults.sh` OR `brew install mackup` then `mackup restore`
 
 ## Applications
 
